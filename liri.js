@@ -133,5 +133,26 @@ function movieThis (movieName){
     });
 }
 
-
 // do-what-it-says, reference activity 12 for help
+
+function doThis(){
+    fs.readFile("random.txt", "utf8", function(error, data) {
+
+        if (error) {
+          return console.log(error);
+        }
+      
+        console.log(data);
+      
+        // make it more readable with split
+        var dataArr = data.split(",");
+      
+        //e-display the content as an array for later use.
+        console.log(dataArr);
+
+        switchThis(dataArr[0],dataArr[1]);
+      
+      });
+}
+
+
