@@ -13,15 +13,12 @@ Next is the option to call on information for a specific song. The command is no
   
 Third is a call on movie information. Using the OMDB API with the following command, node liri.js movie-this '<movie name here>', the following will display: Title of the movie, year the movie came out, IMDB Rating of the movie, Rotten Tomatoes Rating of the movie, country where the movie was produced, language of the movie, plot of the movie, actors in the movie.
   
-  
-  
+![image](https://user-images.githubusercontent.com/40874591/47947510-23465b00-def4-11e8-862f-bcf62a1e594b.png)
   
  If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.' See example below.
  
- ![image](https://user-images.githubusercontent.com/40874591/47947430-cd24e800-def2-11e8-8500-1b4b7bd55672.png)
+![image](https://user-images.githubusercontent.com/40874591/47947528-6ef90480-def4-11e8-967d-eac0d7481176.png)
 
- 
  Finally, do-what-it-says. Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands. It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
  
-![image](https://user-images.githubusercontent.com/40874591/47947466-50ded480-def3-11e8-99f8-d5e546986d3f.png)
 
