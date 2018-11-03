@@ -21,4 +21,5 @@ Third is a call on movie information. Using the OMDB API with the following comm
 
  Finally, do-what-it-says. Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands. It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
  
+![image](https://user-images.githubusercontent.com/40874591/47947536-b089af80-def4-11e8-8ea1-d51cf8a2ce56.png)
 
