@@ -18,6 +18,10 @@ Third is a call on movie information. Using the OMDB API with the following comm
   
  If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.' See example below.
  
+ ![image](https://user-images.githubusercontent.com/40874591/47947430-cd24e800-def2-11e8-8500-1b4b7bd55672.png)
+
+ 
  Finally, do-what-it-says. Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands. It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
  
- ![image](https://user-images.githubusercontent.com/40874591/47947407-4bcd5580-def2-11e8-8d56-e7d8b5b877ba.png)
+![image](https://user-images.githubusercontent.com/40874591/47947427-b9798180-def2-11e8-9d11-126c343c6a9f.png)
+
